@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="player_icon_size">32dp</dimen>
+</resources>

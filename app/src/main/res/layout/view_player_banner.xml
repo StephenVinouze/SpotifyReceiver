@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/player_banner_source_icon"
+        android:layout_width="@dimen/player_icon_size"
+        android:layout_height="@dimen/player_icon_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/player_banner_status_icon"
+        android:layout_width="@dimen/player_icon_size"
+        android:layout_height="@dimen/player_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/player_banner_track_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/standard_margin"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:layout_marginStart="@dimen/standard_margin"
+        android:layout_toEndOf="@id/player_banner_source_icon"
+        android:layout_toLeftOf="@id/player_banner_status_icon"
+        android:layout_toRightOf="@id/player_banner_source_icon"
+        android:layout_toStartOf="@id/player_banner_status_icon"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</merge>
